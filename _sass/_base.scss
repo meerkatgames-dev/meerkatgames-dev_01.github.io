@@ -56,6 +56,12 @@ p {
     color: #f8f8f8;
 }
 
+.icontain {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+
 .bg-dark {
     background-color: $theme-dark;
     color: white;
@@ -358,3 +364,4 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
