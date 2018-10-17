@@ -17,7 +17,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # NOTE: The description below is ignored since we use the _includes/about.yml as the description but you can change that if you prefer
-title: "MEERKATGAEMS Co., Ltd."
+title: "MEERKATGAEMS"
 keywords: "Meerkatgames, Mobile Game, Game Development, MUNCHKIN, Arena Masters"
 description: "MEERKATGAMEs Co., Ltd. Official Homepage" > # the right arrow or greater-than symbol means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
