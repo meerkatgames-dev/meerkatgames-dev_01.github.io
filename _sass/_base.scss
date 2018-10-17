@@ -360,9 +360,11 @@ header {
 .btn {
     @include sans-serif-font;
     border: none;
-    border-radius: 300px;
-    font-weight: 700;
+    border-radius: 10px;
+    font-weight: 600;
     text-transform: uppercase;
+    width: 200px;
+    font-size: 18px;
 }
 
 .btn-xl {
