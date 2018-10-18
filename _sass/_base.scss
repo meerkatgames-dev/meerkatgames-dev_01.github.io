@@ -124,8 +124,10 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
-    border-color: rgba($theme-dark, .5);
+    /* background-color: white; */
+    background-color: black;
+    /* border-color: rgba($theme-dark, .5); */
+    background-color: black;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -145,15 +147,18 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                // color: $theme-dark;
+                // color: white;
+                /* color: $theme-dark; */
                 &:hover {
-                    color: $theme-primary;
+                    color: white;
+                    /* color: $theme-primary; */
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-primary !important;
+                    color: #23e9f0 !important;
+                    /* color: $theme-primary !important; */
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
